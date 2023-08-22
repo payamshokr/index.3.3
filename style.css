@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ion-bage {
+    font-size: 20px;
+}
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid lightgray !important;
+} 
+.btn-custom {
+    transition: 1s !important;
+}
+.input-box {
+    border-left: 10px solid lightgray;
+}
+.box-info {
+    box-shadow: rgba(0, 0, 0, 0.007) 0px 19px 38px, rgba(46, 46, 46, 0.22) 0px 15px 12px;
+}
