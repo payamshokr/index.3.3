@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none !important;
+    padding: 5px;
+}
 .ion-bage {
     font-size: 20px;
 }
@@ -18,4 +22,35 @@
 }
 .box-info {
     box-shadow: rgba(0, 0, 0, 0.007) 0px 19px 38px, rgba(46, 46, 46, 0.22) 0px 15px 12px;
+}
+#link-icon {
+    font-size: 25px;
+}
+#link-icon2 {
+    font-size: 25px;
+    color: red;
+}
+.text-box {
+    border-left:5px solid lightgray ;
+    padding: 10px;
+}
+.share-link {
+    text-align: center;
+    transition: 1s;
+    border-bottom: 3px solid red;
+}
+.share-link:hover {
+    box-shadow: rgba(0, 0, 0, 0.007) 0px 19px 38px, rgba(46, 46, 46, 0.22) 0px 15px 12px;
+    color: red;
+    border-radius: 20px;
+
+
+}
+.box2 {
+    box-shadow: rgba(0, 0, 0, 0.007) 0px 19px 38px, rgba(46, 46, 46, 0.22) 0px 15px 12px;
+    border-radius: 10px ;
+
+}
+.img-box3>img {
+    border: 5px double rebeccapurple;
 }
